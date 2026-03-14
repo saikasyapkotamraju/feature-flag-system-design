@@ -1,0 +1,6 @@
+testId,flagName,flagEnv,flagEnabled,rolloutPercentage,userId,userName,userEnv,userAllowlisted,expectedEnabled
+basic_prod_enabled_all,FeatureFlagA,PROD,true,100,1,Kasyap,PROD,false,true
+basic_dev_not_allowlisted,FeatureFlagA,PROD,true,100,2,Kiran,DEV,false,false
+basic_dev_allowlisted,FeatureFlagA,PROD,true,100,2,Kiran,DEV,true,true
+basic_flag_disabled,FeatureFlagA,PROD,false,100,1,Kasyap,PROD,false,false
+

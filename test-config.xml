@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureFlagTests output="test-output.xml">
+  <csv path="testdata/featureflagA_basic.csv" />
+  <csv path="testdata/featureflagA_rollout.csv" />
+</featureFlagTests>
+

@@ -1,0 +1,5 @@
+testId,flagName,flagEnv,flagEnabled,rolloutPercentage,userId,userName,userEnv,userAllowlisted,expectedEnabled
+rollout_20_user_101,FeatureFlagA,PROD,true,20,101,Kasyap,PROD,false,false
+rollout_20_user_103,FeatureFlagA,PROD,true,20,103,Karthik,PROD,false,false
+rollout_20_dev_allowlisted,FeatureFlagA,PROD,true,20,102,Kiran,DEV,true,true
+
